@@ -1,8 +1,7 @@
 Feature: Login Test Feature
 
 @smoke 
-Scenario Outline: Login with valid credential
-
+Scenario Outline: With valid credentials
 
 When Enter UN "<UN>"
 And Enter PWD "abh!neetM7890"
@@ -13,26 +12,8 @@ Examples:
 |UN|
 | abhineetmishra01@gmail.com |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @regression
-Scenario Outline: Login with invalid credential
+Scenario Outline: With invalid credentials
 
 When Enter UN "<UN>"
 And Enter PWD "wrong pwd"
