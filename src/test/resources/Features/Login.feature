@@ -12,7 +12,7 @@ Examples:
 |UN|
 | abhineetmishra01@gmail.com |
 
-@regression
+#@regression
 Scenario Outline: With invalid credentials
 
 When Enter UN "<UN>"

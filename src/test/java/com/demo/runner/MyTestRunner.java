@@ -15,8 +15,8 @@ import cucumber.api.junit.Cucumber;
 		glue="com/steps",
 		//dryRun=true,
 		monochrome=true,
-		//tags={"@smoke,@regression"},   //OR condition
-		tags={"@smoke","@regression"},	//And condition
+		tags={"@smoke,@regression"},   //OR condition
+		//tags={"@smoke","@regression"},	//And condition
 		//plugin = {"pretty","html:output/Report"}
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:output/report.html"}
 		)
